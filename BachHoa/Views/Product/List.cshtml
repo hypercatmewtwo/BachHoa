@@ -1,0 +1,100 @@
+﻿@model IEnumerable<BachHoa.Models.Product>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.net_weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.expried)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.desciption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ingredient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.guide)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.preserved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.factory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.category_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantity)
+            </th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.net_weight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.expried)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.desciption)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ingredient)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.guide)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.preserved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.factory)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.category_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantity)
+            </td>
+
+        </tr>
+    }
+
+    </table>*@
+@foreach (var item in Model)
+{
+    
+}
